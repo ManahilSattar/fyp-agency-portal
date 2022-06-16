@@ -1,0 +1,77 @@
+.editBtn {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  color: blue;
+}
+.deleteBtn {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  color: red;
+}
+
+/* .badge {
+  width: max-content;
+  height: 26px;
+  color: white;
+  border-radius: 15px;
+  padding: 5px;
+}
+.badgeYellow {
+  background-color: #22e03e;
+}
+.badgeBlue {
+  background-color: #fb9e00;
+}
+.badgeRed {
+  background-color: #ff0000;
+}
+p {
+  text-align: center;
+} */
+
+.editBtn:hover {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  color: #30aba5;
+}
+
+.editBtn:disabled {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  color: #b00e75;
+}
+
+.deleteBtn:hover {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  color: #e64343;
+}
+
+.deleteBtn:disabled {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  color: #b00e75;
+}
+
+.status {
+  width: max-content;
+  height: 26px;
+  color: white;
+  border-radius: 15px;
+  padding: 5px;
+}
+.status.accept {
+  background-color: #22e03e;
+}
+.status.pending {
+  background-color: #fb9e00;
+}
+.status.reject {
+  background-color: #ff0000;
+}

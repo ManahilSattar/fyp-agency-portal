@@ -1,0 +1,75 @@
+.managetable {
+  border-spacing: 20px;
+  min-width: 700px;
+  border-spacing: 20px;
+  margin-left: 1%;
+  width: 90%;
+  flex: 4;
+}
+.cellWrapper {
+  display: flex;
+  align-items: center;
+}
+.tableCell1 {
+  max-width: 300px;
+  word-wrap: break-word;
+}
+
+.tableheader {
+  background-color: #fb9e00;
+}
+
+.image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+.action {
+  padding: 5px;
+  border-radius: 5px;
+}
+.action.Approved {
+  color: green;
+  background-color: rgba(0, 128, 0, 0.151);
+}
+.action.Pending {
+  color: goldenrod;
+  background-color: rgba(189, 189, 3, 0.103);
+}
+.home {
+  display: flex;
+}
+.listContainer {
+  padding: 20px;
+  margin: 20px;
+}
+.editbtn {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  color: blue;
+}
+.deletebtn {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  color: red;
+}
+.editbtn:hover {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  color: #30aba5;
+}
+
+.deletebtn:hover {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  color: #e64343;
+}
+.Spinner {
+  margin-left: 1000%;
+}
